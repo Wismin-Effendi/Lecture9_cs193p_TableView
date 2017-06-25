@@ -17,7 +17,7 @@ class TwitterTableViewController: UITableViewController {
             tweets.removeAll()
             tableView.reloadData()
             searchForTweets()
-            title = searchTest
+            title = searchText
         }
     }
     
